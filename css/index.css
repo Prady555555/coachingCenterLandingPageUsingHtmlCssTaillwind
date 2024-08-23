@@ -52,6 +52,15 @@
     rgba(74, 22, 189, 0.8) 100%
   );
 }
+@media (max-width: 768px) {
+  .headerMainContainer {
+    background: linear-gradient(
+      257deg,
+      rgba(4, 1, 108, 0.8) 0.69%,
+      rgba(74, 22, 189, 0.8) 100%
+    );
+  }
+}
 .navBtn {
   background: linear-gradient(102deg, #083f9b 0%, #7f56d9 93.39%);
 }
