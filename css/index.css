@@ -70,3 +70,12 @@
 .testimonal {
   background: linear-gradient(90deg, #dbedff 100%, #dbedff 0%);
 }
+.FooterContainer {
+  background: linear-gradient(
+    90deg,
+    rgba(147, 27, 189, 0.85) 0%,
+    rgba(71, 122, 227, 1) 100%
+  );
+}
+.footerContainer2 {
+}
