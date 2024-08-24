@@ -32,18 +32,13 @@
   font-style: normal;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .headerMainContainer {
   background: linear-gradient(
     257deg,
     rgba(4, 1, 108, 0.8) 0.69%,
     rgba(74, 22, 189, 0.8) 100%
   );
+  overflow: hidden;
 }
 .HeaderContainer {
   background: linear-gradient(
@@ -52,15 +47,20 @@
     rgba(74, 22, 189, 0.8) 100%
   );
 }
-@media (max-width: 768px) {
-  .headerMainContainer {
-    background: linear-gradient(
-      257deg,
-      rgba(4, 1, 108, 0.8) 0.69%,
-      rgba(74, 22, 189, 0.8) 100%
-    );
-  }
-}
+
 .navBtn {
   background: linear-gradient(102deg, #083f9b 0%, #7f56d9 93.39%);
+}
+.logoContianer {
+  background: linear-gradient(
+    90deg,
+    rgba(46, 8, 199, 1) 0%,
+    rgba(126, 8, 199, 1) 100%
+  );
+}
+.featuredCOntainer {
+  background: linear-gradient(90deg, #d9ecff 100%, #f0f3ff 0%);
+}
+.learnCourse {
+  background: linear-gradient(90deg, #739fe8 90%, #4f18ca 90%);
 }

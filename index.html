@@ -24,24 +24,26 @@
   <body>
     <!-- navigationContainer -->
     <nav
-      class="navContainer w-full flex justify-between items-center flex-wrap max-md:hidden"
+      class="navContainer w-full flex justify-between items-center flex-wrap"
     >
-      <div class="navLogoContainer">
+      <div
+        class="navLogoContainer flex max-md:flex max-md:items-center max-md:my-auto"
+      >
         <img
           src="./public/images/NavLogo.png"
-          class="navLogoImg w-[191px] h-[110px]"
+          class="navLogoImg w-[191px] h-[110px] max-md:w-[100px] max-md:h-[100px]"
         />
       </div>
 
       <div
-        class="navMiddleContainer flex gap-8 ml-[12%] righteous-regular text-black text-xl font-normal"
+        class="navMiddleContainer flex gap-8 ml-[12%] righteous-regular text-black text-xl font-normal max-xl:hidden"
       >
         <div class="navMiddle1">Home</div>
         <div class="navMiddle2">About</div>
         <div class="navMiddle3">Course</div>
         <div class="navMiddle4">Contact</div>
       </div>
-      <div class="navSecondMiddleContainer flex gap-8">
+      <div class="navSecondMiddleContainer flex gap-8 max-md:hidden">
         <img
           src="./public/images/navIcon1.png"
           alt=""
@@ -50,16 +52,16 @@
         <img src="/public/images/navIcon3.png" alt="" class="navSecondMiddle" />
         <img src="/public/images/navIcon4.png" alt="" class="navSecondMiddle" />
       </div>
-      <div class="mr-[5%] flex gap-8 items-center">
+      <div class="mr-[5%] flex gap-8 items-center max-md:flex max-md:mx-auto">
         <input
           type="button"
           value="Login"
-          class="border-b-2 border-BtnNavColor text-BtnNavColor saira text-xl"
+          class="border-b-2 border-BtnNavColor text-BtnNavColor saira text-xl max-md:text-xs"
         />
         <input
           type="button"
           value="SignUp"
-          class="saira text-white text-xl navBtn w-[138px] h-[60px] rounded-xl"
+          class="saira text-white text-xl navBtn w-[138px] h-[60px] rounded-xl max-md:w-[100px] max-md:h-[55px] max-md:text-xs"
         />
       </div>
     </nav>
@@ -73,7 +75,7 @@
             Successful coaches are visionaries
           </div>
           <div
-            class="text-white font-normal righteous-regular max-md:text-[35px] text-[80px] max-lg:text-[35px]"
+            class="text-white font-normal righteous-regular max-md:text-[35px] text-[80px] max-lg:text-[35px] max-xl:text-[70px]"
           >
             Good <span class="text-coachingTxt">coaching</span> is <br />
             good teaching & <br />
@@ -94,7 +96,7 @@
             />
           </div>
           <div
-            class="w-[489px] h-[70px] bg-white rounded-xl flex items-center gap-[8%] justify-center max-md:w-[300px] max-md:text-xs max-md:mx-auto max-md:gap-[4%] max-md:flex-col max-md:mb-10 max-md:justify-center max-lg:hidden"
+            class="w-[489px] h-[70px] bg-white rounded-xl flex items-center gap-[8%] justify-center max-md:w-[300px] max-md:text-xs max-md:mx-auto max-md:gap-[4%] max-md:flex-col max-md:mb-10 max-md:justify-center max-lg:hidden max-xl:mb-10"
           >
             <div class="">What do you want to learn today?</div>
             <div
@@ -116,7 +118,7 @@
           class="headerMainRightContainer relative flex gap-4 max-md:flex-col"
         >
           <div
-            class="headerMainRightWord&ImgContainer flex absolute top-[10%] w-[290px] h-[158pxs] items-center gap-3 max-md:my-8 max-md:mx-6"
+            class="headerMainRightWord&ImgContainer flex absolute top-[10%] w-[290px] h-[158pxs] items-center gap-3 max-md:my-16 max-md:mx-6"
           >
             <img src="./public/images/group-1000014970.png" class="h-[146px]" />
             <div class="headerMainRightWordContainer">
@@ -136,14 +138,16 @@
             </div>
           </div>
           <div
-            class="headerMainRightImgContainer relative pl-[40%] pt-[30%] max-md:hidden max-lg:pl-[45%] max-lg:pt-[55%] max-xl:pl-[0]"
+            class="headerMainRightImgContainer relative pl-[32%] pt-[30%] max-md:hidden max-lg:pl-[25%] max-lg:pt-[55%] max-xl:pl-2"
           >
             <div
-              class="w-[500px] h-[650px] bg-white rounded-full blur-[100px] max-lg:w-[300px] max-lg:h-[400px]"
+              class="w-[500px] h-[650px] bg-white rounded-full blur-[100px] max-xl:w-[400px] max-xl:h-[600px] max-xl:mt-[18%] max-lg:w-[300px]"
             ></div>
-            <div class="absolute bottom-[1%] right-[10%] max-lg:right-[5%]">
+            <div
+              class="absolute bottom-[1%] right-[18%] max-lg:right-[10%] max-xl:right-[18%] max-xl:mb-[17%] max-lg:bottom-[10%]"
+            >
               <img
-                class="w-[500px] h-[900px] mix-blend-darken z-10 max-lg:w-[300px] max-lg:h-[400px] max-xl:w-[300px] max-xl:h-[400px]"
+                class="w-[400px] h-[800px] mix-blend-darken z-10 max-lg:w-[300px] max-lg:h-[400px] max-xl:w-[400px] max-xl:h-[500px]"
                 src="./public/images/brunette-woman-hugging-laptop-1.png"
               />
             </div>
@@ -151,7 +155,7 @@
         </div>
       </div>
       <div
-        class="HeaderContainerBottomUturn relative max-md:hidden max-lg:hidden"
+        class="HeaderContainerBottomUturn relative max-md:hidden max-lg:hidden max-xl:hidden"
       >
         <div
           class="w-[313px] h-[359px] border-2 border-gray-300 rounded-tl-[500px] rounded-tr-[500px] border-b-0 absolute bottom-[100%] left-[40%]"
@@ -164,5 +168,253 @@
         ></div>
       </div>
     </header>
+
+    <!-- Logo Container -->
+    <div class="logoContianer py-3">
+      <div
+        class="grid grid-cols-6 mx-auto items-center pt-2 max-md:gap-6 max-md:mx-3 max-lg:gap-4 max-lg:mx-3"
+      >
+        <div class="flex justify-center items-center">
+          <img src="./public/images/link-brand-0.png" alt="" />
+        </div>
+        <div class="flex justify-center items-center">
+          <img src="./public/images/link-brand-6-png.png" alt="" />
+        </div>
+        <div class="flex justify-center items-center">
+          <img src="./public/images/link-brand-3-png.png" alt="" />
+        </div>
+        <div class="flex justify-center items-center">
+          <img src="./public/images/link-brand-4-png.png" alt="" />
+        </div>
+        <div class="flex justify-center items-center">
+          <img src="./public/images/link-brand-5-png.png" alt="" />
+        </div>
+        <div class="flex justify-center items-center">
+          <img src="./public/images/link-brand-6-png.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Course -->
+    <div class="featuredCOntainer max-md:mt-[60%] pb-[5%]">
+      <div class="TopTextContainerFeatured">
+        <div class="flex flex-col items-center pt-[5%]">
+          <div
+            class="text-black text-[45px] font-normal font-['Rowdies'] uppercase leading-tight tracking-[3px] mx-auto max-md:text-[25px]"
+          >
+            featured <span class="text-[#4883ff]">Course</span>
+          </div>
+          <div
+            class="text-black/80 text-[25px] font-normal font-['Righteous'] uppercase leading-tight tracking-[3px] pt-4 max-md:text-[15px] max-md:text-center max-lg:text-center"
+          >
+            The feature courses are we invented our teaching part
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-3 grid-rows-2 mx-16 gap-10 mt-9 max-md:grid-cols-1 max-lg:grid-cols-2"
+      >
+        <div>
+          <img src="./public/images/Mask group.png" alt="" />
+          <div class="bg-white shadow-md rounded-b-[20px]">
+            <div class="flex justify-between mx-4">
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                1,957 Students
+              </div>
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                01h 59m
+              </div>
+            </div>
+            <div
+              class="text-[20px] font-semibold font-['Saira'] leading-[35px] text-[#314360] mx-4"
+            >
+              Motion Graphics: Create a Nice <br />
+              Typography Animation
+            </div>
+            <div class="flex justify-between mx-4 pt-8 pb-10 items-center">
+              <div
+                class="text-[22px] font-semibold font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                Rs.499
+              </div>
+              <div>
+                <img src="./public/images/bx-cart-alt-icon.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="./public/images/Mask group2.png" alt="" />
+          <div class="bg-white shadow-md rounded-b-[20px]">
+            <div class="flex justify-between mx-4">
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                9,575 Students
+              </div>
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                01h 59m
+              </div>
+            </div>
+            <div
+              class="text-[20px] font-semibold font-['Saira'] leading-[35px] text-[#314360] mx-4"
+            >
+              Advance PHP knowledge with JS to<br />make smart web
+            </div>
+            <div class="flex justify-between items-center mx-4 pt-8 pb-10">
+              <div
+                class="text-[22px] font-semibold font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                Rs.499
+              </div>
+              <img src="./public/images/bx-cart-alt-icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="./public/images/Mask group3.png" alt="" />
+          <div class="bg-white shadow-md rounded-b-[20px]">
+            <div class="flex justify-between mx-4">
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                2957 Students
+              </div>
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                02h 49m
+              </div>
+            </div>
+            <div
+              class="text-[20px] font-semibold font-['Saira'] leading-[35px] text-[#314360] mx-4"
+            >
+              Education Software and PHP and JS<br />System Script
+            </div>
+            <div class="flex justify-between items-center mx-4 pt-8 pb-10">
+              <div
+                class="text-[22px] font-semibold font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                Rs.499
+              </div>
+              <img src="./public/images/bx-cart-alt-icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="./public/images/Mask group4.png" alt="" />
+          <div class="bg-white shadow-md rounded-b-[20px]">
+            <div class="flex justify-between mx-4">
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                5,457 Students
+              </div>
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                01h 49m
+              </div>
+            </div>
+            <div
+              class="text-[20px] font-semibold font-['Saira'] leading-[35px] text-[#314360] mx-4"
+            >
+              The Complete Financial Analyst<br />Training & Investing
+            </div>
+            <div class="flex justify-between items-center mx-4 pt-8 pb-10">
+              <div
+                class="text-[22px] font-semibold font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                Rs.499
+              </div>
+              <img src="./public/images/bx-cart-alt-icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="./public/images/Mask group5.png" alt="" />
+          <div class="bg-white shadow-md rounded-b-[20px]">
+            <div class="flex justify-between mx-4">
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                595 Students
+              </div>
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                01h 49m
+              </div>
+            </div>
+            <div
+              class="text-[20px] font-semibold font-['Saira'] leading-[35px] text-[#314360] mx-4"
+            >
+              Marketing 2023: Complete Guide To<br />Instagram Growth
+            </div>
+            <div class="flex justify-between items-center mx-4 pt-8 pb-10">
+              <div
+                class="text-[22px] font-semibold font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                Rs.499
+              </div>
+              <img src="./public/images/bx-cart-alt-icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="./public/images/Mask group.png" alt="" />
+          <div class="bg-white shadow-md rounded-b-[20px]">
+            <div class="flex justify-between mx-4">
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                458 Students
+              </div>
+              <div
+                class="text-sm font-medium font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                03h 00m
+              </div>
+            </div>
+            <div
+              class="text-[20px] font-semibold font-['Saira'] leading-[35px] text-[#314360] mx-4"
+            >
+              Learn 3D Modelling and Design<br />for Beginners
+            </div>
+            <div class="flex justify-between items-center mx-4 pt-8 pb-10">
+              <div
+                class="text-[22px] font-semibold font-['Saira'] leading-[35px] text-[#4e596b]"
+              >
+                Rs.499
+              </div>
+              <img src="./public/images/bx-cart-alt-icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex items-center justify-center w-[200px] h-[60px] navBtn mx-auto mt-10 rounded-lg"
+      >
+        <div class="righteous-regular text-[20px] text-white">
+          Explore Course
+        </div>
+      </div>
+    </div>
+    <!-- Learn With Our Course Container -->
+
+    <div></div>
   </body>
 </html>
