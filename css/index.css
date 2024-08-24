@@ -62,5 +62,11 @@
   background: linear-gradient(90deg, #d9ecff 100%, #f0f3ff 0%);
 }
 .learnCourse {
-  background: linear-gradient(90deg, #739fe8 90%, #4f18ca 90%);
+  background: linear-gradient(90deg, #739fe8 100%, #4f18ca 90%);
+}
+.topCategories {
+  background: linear-gradient(90deg, #d9ecff 100%, #d9ecff 0%);
+}
+.testimonal {
+  background: linear-gradient(90deg, #dbedff 100%, #dbedff 0%);
 }
